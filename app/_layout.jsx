@@ -17,19 +17,19 @@ const _layout = () => {
         <Tabs.Screen
             name="explore"
             options={{
-                title: "Explore"
+                title: "Tutors"
             }}
         />
         <Tabs.Screen
             name="create"
             options={{
-                title: "Create"
+                title: "Institutions"
             }}
         />
         <Tabs.Screen
             name="profile"
             options={{
-                title: "Profile"
+                title: "Courses"
             }}
         />
     </Tabs>
