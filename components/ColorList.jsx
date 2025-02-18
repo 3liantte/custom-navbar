@@ -6,7 +6,7 @@ const ColorList = ({color}) => {
     <ScrollView 
       contentContainerStyle={styles.container}>
       {
-        [1, 0.8, 0.5].map(opacity=> (
+        [2.5, 1.5, 1, 0.8,].map(opacity=> (
           <View 
             key={opacity} 
             style={[styles.color, {backgroundColor: color, opacity}]} 

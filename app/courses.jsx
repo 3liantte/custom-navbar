@@ -2,12 +2,12 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import ColorList from '../components/ColorList'
 
-const index = () => {
+const courses = () => {
   return (
     <View>
-      <ColorList color="#ffc004"/>
+      <ColorList color="#2a52be"/>
     </View>
   )
 }
 
-export default index
+export default courses

@@ -2,12 +2,12 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import ColorList from '../components/ColorList'
 
-const create = () => {
+const tutors = () => {
   return (
     <View>
-      <ColorList color="#00a478"/>
+      <ColorList color="#c7313d"/>
     </View>
   )
 }
 
-export default create
+export default tutors
