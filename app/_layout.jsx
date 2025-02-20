@@ -32,6 +32,12 @@ const _layout = () => {
                 title: "Courses"
             }}
         />
+        <Tabs.Screen
+            name="library"
+            options={{
+                title: "Library"
+            }}
+        />
     </Tabs>
   )
 }

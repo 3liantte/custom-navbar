@@ -44,7 +44,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
         return (
           <TabBarButton 
             key={route.name}
-            style={styles.tabbarItem}
+            style={styles.tabbarItem} 
             onPress={onPress}
             onLongPress={onLongPress}
             isFocused={isFocused}
